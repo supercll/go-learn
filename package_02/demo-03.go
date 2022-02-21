@@ -9,7 +9,7 @@ func main() {
 	// demo02()
 	// demo03()
 	// demo04()
-	// demo05()
+	demo05()
 }
 
 func demo01() {
@@ -69,7 +69,9 @@ func demo04() {
 
 func demo05() {
 	str := new(string)
-	fmt.Println(str, *str)
+	var ptr *int
+	fmt.Println(str, *str, ptr)
+	fmt.Println(str == nil, ptr == nil)
 	*str = "hello go"
 	fmt.Println(str, *str)
 }
