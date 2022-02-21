@@ -29,8 +29,8 @@ func main() {
 }
 
 func changeAnime(anime Anime) {
-	anime.title = "进击的巨人"
+	anime.title = "黑之契约者"
 }
 func changeAnimeByPointer(anime *Anime) {
-	anime.title = "黑之契约者"
+	anime.title = "进击的巨人"
 }
